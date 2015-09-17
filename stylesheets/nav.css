@@ -1,0 +1,70 @@
+/*
+Error: Undefined variable: "$rgba-primary-1".
+        on line 3 of /home/sanguish/Desktop/Projects/SurveyTool/sass/nav.scss
+
+1: nav {
+2:   height: 3em;
+3:   background: $rgba-primary-1;
+4:   border-bottom: 1px solid #000;
+5: 
+6:   h1 {
+7:     float: left;
+8:     font-size: calc(3em - 4px);
+
+Backtrace:
+/home/sanguish/Desktop/Projects/SurveyTool/sass/nav.scss:3
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `map'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/home/sanguish/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$rgba-primary-1\".\A         on line 3 of /home/sanguish/Desktop/Projects/SurveyTool/sass/nav.scss\A \A 1: nav {\A 2:   height: 3em;\A 3:   background: $rgba-primary-1;\A 4:   border-bottom: 1px solid #000;\A 5: \A 6:   h1 {\A 7:     float: left;\A 8:     font-size: calc(3em - 4px);"; }

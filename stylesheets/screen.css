@@ -1,0 +1,529 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, #surveyTool .userList tr th,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td, #surveyTool .userList tr th {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/nav.scss */
+nav {
+  height: 3em;
+  background: #63b0e1;
+  border-bottom: 1px solid #000;
+}
+/* line 6, ../sass/nav.scss */
+nav h1 {
+  float: left;
+  font-size: calc(3em - 4px);
+  font-weight: 100;
+  color: #fff;
+}
+/* line 13, ../sass/nav.scss */
+nav ol {
+  float: right;
+}
+/* line 17, ../sass/nav.scss */
+nav li {
+  display: inline-block;
+  line-height: 3em;
+}
+/* line 21, ../sass/nav.scss */
+nav li a {
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+}
+/* line 26, ../sass/nav.scss */
+nav li a:hover, nav li a.prtxt_input:focus, nav li a.validate_txt_input:focus {
+  background: #a9c8dc;
+}
+
+/* line 1, ../sass/mainSite.scss */
+.mainContent {
+  margin: 2em auto;
+  max-width: 60%;
+  background: #fff;
+  border: 1px solid #000;
+}
+/* line 7, ../sass/mainSite.scss */
+.mainContent p {
+  line-height: 1.5em;
+  margin: 1em 2em;
+  text-indent: 4em;
+}
+
+/* line 16, ../sass/mainSite.scss */
+footer {
+  background: #c5d2da;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+/* line 24, ../sass/mainSite.scss */
+footer ul {
+  margin: 1em 2em;
+}
+
+/* line 30, ../sass/mainSite.scss */
+#integrationScenarios .intro_para {
+  text-indent: 0em;
+  display: block;
+  width: 20em;
+  margin: 3em auto;
+  border: 1px solid #aeaeae;
+  padding: 1em;
+}
+/* line 39, ../sass/mainSite.scss */
+#integrationScenarios h1 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/* line 45, ../sass/mainSite.scss */
+#integrationScenarios h2 {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+/* line 25, ../sass/screen.scss */
+body {
+  font-family: sans-serif;
+  background: #fff;
+}
+
+/* line 30, ../sass/screen.scss */
+.errorMessage, .infoMessage {
+  width: 100%;
+  background: rgba(213, 26, 26, 0.4);
+  color: #d51a1a;
+  weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  position: relative;
+  border-bottom: 1px solid #d51a1a;
+}
+
+/* line 42, ../sass/screen.scss */
+.infoMessage {
+  background: rgba(60, 138, 191, 0.4);
+  color: #3c8abf;
+  border-bottom: 1px solid #3c8abf;
+}
+
+/* line 49, ../sass/screen.scss */
+.prtxt_input, .validate_txt_input {
+  outline: none;
+  border: 1px solid #aeaeae;
+  font-size: 1em;
+  line-height: 2em;
+  margin: 0.5em 0 0.75em;
+  padding: 0 .5em;
+  display: block;
+}
+/* line 58, ../sass/screen.scss */
+.prtxt_input:hover, .prtxt_input:focus, .validate_txt_input:focus, .validate_txt_input:hover {
+  box-shadow: 0 0 5px 1px #4287a4;
+  border: 1px solid #4287a4;
+}
+
+/* line 68, ../sass/screen.scss */
+.validate_txt_input {
+  display: inline-block;
+}
+
+/* line 73, ../sass/screen.scss */
+.pr_select {
+  display: block;
+  margin: 0.5em 0 0.75em;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0 .5em;
+}
+
+/* line 81, ../sass/screen.scss */
+.user_content {
+  min-width: 30%;
+  max-width: 50%;
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 10px 3px #aeaeae;
+  margin: 6em auto;
+  padding: 2em;
+}
+
+/* line 95, ../sass/screen.scss */
+.prinfo form label:after {
+  content: "\a";
+  white-space: pre;
+}
+
+/* line 104, ../sass/screen.scss */
+.confirmTake p {
+  line-height: 2em;
+}
+/* line 108, ../sass/screen.scss */
+.confirmTake .img_link {
+  width: 2em;
+  display: block;
+  margin: 1em auto;
+  text-align: center;
+}
+/* line 114, ../sass/screen.scss */
+.confirmTake .img_link img {
+  height: 2em;
+  width: 2em;
+  display: block;
+}
+/* line 121, ../sass/screen.scss */
+.confirmTake .img_link_caption {
+  font-size: .75em;
+  color: #4287a4;
+  text-decoration: none;
+  display: block;
+  margin: .5em auto .75em;
+  width: 100%;
+  text-align: center;
+}
+/* line 131, ../sass/screen.scss */
+.confirmTake label {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* line 136, ../sass/screen.scss */
+.confirmTake input[type=checkbox] {
+  margin: .5em .5em 1em 1em;
+}
+
+/* line 142, ../sass/screen.scss */
+.complete p {
+  line-height: 1.5em;
+}
+
+/* line 147, ../sass/screen.scss */
+.addQuestion, .editQuestion {
+  margin: auto;
+  width: 80%;
+  border: 1px solid #000;
+  border-radius: 1em;
+  background: #fff;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 157, ../sass/screen.scss */
+.addQuestion fieldset, .editQuestion fieldset {
+  justify-content: center;
+  min-width: 35%;
+  margin: 1em 2em;
+}
+/* line 163, ../sass/screen.scss */
+.addQuestion fieldset.newChoices .inputStyle:after, .editQuestion fieldset.newChoices .inputStyle:after {
+  white-space: pre;
+  content: "\A";
+}
+/* line 169, ../sass/screen.scss */
+.addQuestion fieldset.buttons, .editQuestion fieldset.buttons {
+  flex-grow: 2;
+}
+/* line 175, ../sass/screen.scss */
+.addQuestion label:after, .editQuestion label:after {
+  white-space: pre;
+  content: "\A";
+}
+
+/* line 182, ../sass/screen.scss */
+.divPush {
+  clear: both;
+}
+
+/* line 186, ../sass/screen.scss */
+#adminTabs {
+  text-align: center;
+  margin: 1em 0;
+}
+/* line 190, ../sass/screen.scss */
+#adminTabs a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 2em;
+}
+/* line 195, ../sass/screen.scss */
+#adminTabs a:hover, #adminTabs a.prtxt_input:focus, #adminTabs a.validate_txt_input:focus {
+  text-decoration: underline;
+}
+
+/* line 201, ../sass/screen.scss */
+.question {
+  margin: 1em auto;
+  padding: 1em;
+  width: 50%;
+  display: block;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background: #C5E2FF;
+}
+/* line 210, ../sass/screen.scss */
+.question .choiceOptions {
+  margin: 1em 0;
+}
+/* line 215, ../sass/screen.scss */
+.question .response:after {
+  content: '\a';
+  white-space: pre;
+}
+
+/* line 223, ../sass/screen.scss */
+#surveyTool .userList {
+  border: 1px solid #000;
+  margin: 1em auto;
+  width: 70%;
+  padding: 2px;
+  background: #c5d2da;
+}
+/* line 230, ../sass/screen.scss */
+#surveyTool .userList tr {
+  border: 1px solid #000;
+  margin: 2px;
+  padding: 2px;
+}
+/* line 235, ../sass/screen.scss */
+#surveyTool .userList tr td, #surveyTool .userList tr th {
+  border: 1px solid #000;
+  margin: 2px;
+  padding: 2px;
+}
+/* line 240, ../sass/screen.scss */
+#surveyTool .userList tr td:last-child, #surveyTool .userList tr th:last-child {
+  text-align: center;
+}
+/* line 243, ../sass/screen.scss */
+#surveyTool .userList tr td:last-child a, #surveyTool .userList tr th:last-child a {
+  text-decoration: none;
+}
+/* line 249, ../sass/screen.scss */
+#surveyTool .userList tr th {
+  font-weight: bold;
+  text-align: center;
+}
+/* line 257, ../sass/screen.scss */
+#surveyTool .sortBar {
+  text-align: center;
+}
+/* line 260, ../sass/screen.scss */
+#surveyTool .sortBar select {
+  margin: 0 .5em;
+}
+/* line 265, ../sass/screen.scss */
+#surveyTool .old_invite_bar {
+  margin: .5em auto 1em;
+  width: 100%;
+  text-align: center;
+}
+/* line 270, ../sass/screen.scss */
+#surveyTool .old_invite_bar select {
+  margin: 0 .5em;
+}
+/* line 275, ../sass/screen.scss */
+#surveyTool .surveyTable {
+  border: 1px solid #aeaeae;
+  margin: 1em auto;
+  width: 20em;
+}
+/* line 280, ../sass/screen.scss */
+#surveyTool .surveyTable th {
+  font-weight: bold;
+  border: 1px solid #aeaeae;
+  padding: .5em .25em;
+  text-align: center;
+}
+/* line 287, ../sass/screen.scss */
+#surveyTool .surveyTable td, #surveyTool .surveyTable .userList tr th, #surveyTool .userList tr .surveyTable th {
+  border: 1px solid #aeaeae;
+  padding: .5em .25em;
+}
+/* line 291, ../sass/screen.scss */
+#surveyTool .surveyTable td a, #surveyTool .surveyTable .userList tr th a, #surveyTool .userList tr .surveyTable th a {
+  color: #015c8a;
+}
+/* line 297, ../sass/screen.scss */
+#surveyTool .sectionHeaderBox {
+  text-align: center;
+  width: 100%;
+  margin: 1em auto .5em;
+}
+/* line 302, ../sass/screen.scss */
+#surveyTool .sectionHeaderBox .sectionHeader {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+/* line 308, ../sass/screen.scss */
+#surveyTool .delete_question {
+  float: right;
+  margin: 0 0 1em;
+}
+/* line 312, ../sass/screen.scss */
+#surveyTool .delete_question input {
+  height: 1.5em;
+}
+/* line 317, ../sass/screen.scss */
+#surveyTool .gearIcon {
+  float: right;
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 1em 1em;
+  transition: .2s;
+}
+/* line 324, ../sass/screen.scss */
+#surveyTool .gearIcon:hover, #surveyTool .gearIcon.prtxt_input:focus, #surveyTool .gearIcon.validate_txt_input:focus {
+  transform: rotate(90deg);
+  transition: .3s;
+}
+
+/* line 332, ../sass/screen.scss */
+#login .loginBox, #login .codeBox {
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 1em 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* line 344, ../sass/screen.scss */
+#login .loginBox h3, #login .codeBox h3 {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+/* line 349, ../sass/screen.scss */
+#login .loginBox input[type=text], #login .codeBox input[type=text] {
+  height: 1.5em;
+  border: 1px solid #000;
+  padding: .5em;
+  width: 15em;
+  margin: 1em;
+}
+/* line 357, ../sass/screen.scss */
+#login .loginBox input[type=submit], #login .codeBox input[type=submit] {
+  outline: none;
+  border: none;
+  height: 2.5em;
+  width: 2.5em;
+  padding: .75em;
+  background: url("../png/glyphicons-224-chevron-right.png") no-repeat 0;
+  cursor: pointer;
+}
+
+/* line 374, ../sass/screen.scss */
+#survey .bubbleNav {
+  display: block;
+  margin: 2em auto;
+  width: 100%;
+  text-align: center;
+}
+/* line 380, ../sass/screen.scss */
+#survey .bubbleNav .bubbleLink {
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 2px;
+}
+/* line 389, ../sass/screen.scss */
+#survey .bubbleNav .bubbleActive {
+  background: #333;
+}
+/* line 394, ../sass/screen.scss */
+#survey .questionButtons {
+  margin: 0 auto 2em;
+  width: 100%;
+  text-align: center;
+}
+/* line 399, ../sass/screen.scss */
+#survey .questionButtons input {
+  margin: 0 1em;
+}
+/* line 404, ../sass/screen.scss */
+#survey .sectionInfo {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+/* line 409, ../sass/screen.scss */
+#survey .sectionInfo h3 {
+  font-weight: 200;
+  font-size: 1.5em;
+}
+/* line 414, ../sass/screen.scss */
+#survey .sectionInfo h4 {
+  max-width: 60%;
+  margin: .5em auto .75em;
+}
